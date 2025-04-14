@@ -93,12 +93,16 @@ Multiclass Classification Results
 | Reconnaissance  
 | Worms           
 
-**                 Model  Accuracy (%)  Macro F1-Score  Rank
-0        Decision Tree         92.45          0.9242     1
-1             LightGBM         73.18          0.7205     2
-2             CatBoost         63.13          0.6154     3
-3  Logistic Regression         48.41          0.4465     4
-4          Naive Bayes         41.38          0.3141     5
+### 📊 Model Performance Comparison
+
+| Rank | Model               | Accuracy (%) | Macro F1-Score |
+|------|---------------------|---------------|----------------|
+| 1    | Decision Tree       | 92.45         | 0.9242         |
+| 2    | LightGBM            | 73.18         | 0.7205         |
+| 3    | CatBoost            | 63.13         | 0.6154         |
+| 4    | Logistic Regression | 48.41         | 0.4465         |
+| 5    | Naive Bayes         | 41.38         | 0.3141         |
+
 
 > 🔍 Multiclass classification is more challenging due to class imbalance and overlapping behavior among attacks.
 
